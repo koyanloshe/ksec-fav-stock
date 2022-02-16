@@ -1,10 +1,7 @@
 html {
   height: 100%
 }
-.table-responsive{
-	min-height: .01%;
-    overflow-x: auto;
-}
+
 body {
   font-size: 15px;
   font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
@@ -14,7 +11,9 @@ body {
   font-display: auto;
   overscroll-behavior: contain
 }
-
+.ht{
+	height: 230px;
+}
 .for-designers,
 .for-developers,
 .get-started {
@@ -592,24 +591,12 @@ button {
   width: 100%
 }
 
-.width80 {
-  width: 80%
-}
-
 .width50 {
   width: 50%
 }
 
 .height100 {
   height: 100%
-}
-
-.height80 {
-  height: 80%
-}
-
-.height50 {
-  height: 50%
 }
 
 .safe-center {
@@ -2672,41 +2659,19 @@ button:focus {
   }
 }
 
-@media screen and (max-width:767px){
-	.table-responsive{
-		width: 100%;
-        margin-bottom: 15px;
-        overflow-y: hidden;
-        -ms-overflow-style: -ms-autohiding-scrollbar;
-        border: 1px solid #ddd;
-	}
-	.table-responsive > .table {
-        margin-bottom: 0;
-    }
-	.table-responsive > .table > thead > tr > th,
-    .table-responsive > .table > tbody > tr > th,
-    .table-responsive > .table > tfoot > tr > th,
-    .table-responsive > .table > thead > tr > td,
-    .table-responsive > .table > tbody > tr > td,
-    .table-responsive > .table > tfoot > tr > td {
-        white-space: nowrap;
-    }
-}
 @media screen and (max-width:768px) {
   body {
     font-size: 14px
   }
-	.table-resp{
-		font-size: 12px;
-		padding-left: 1vw;
-		padding-right: 1vw;
-	}
+.ht{
+	height: 300px;
+}
   h1,
   h2,
   h3,
   h4,
   p {
-    margin-top: 2vw !important;
+    margin-top: 0;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 2vw !important
@@ -3369,38 +3334,10 @@ button:focus {
 @media screen and (max-width:960px) and (orientation:landscape) {
   body {
     font-size: 12px
-		
   }
-	.table-resp{
-		
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-		padding-bottom: 0 !important;
-		padding-top: 0 !important;
-		margin-top: 0 !important;
-		margin-bottom: 0 !important;
-		margin-left: 0 !important;
-		margin-right: 0 !important;
-	}
-	.txt-th{
-		font-size: 16px;
-	}
-	.txt-td{
-		font-size: 14px;
-		padding: 1vw !important;
-	}
-	.table-resp1{
-		margin-top: 0 !important;
-		margin-bottom: 0 !important;
-		margin-left: 0 !important;
-		margin-right: 0 !important;
-		
-	}
-	
-.pad-mobile-lr-zero {
-    padding-left: 0;
-    padding-right: 0
-  }
+.ht{
+	height: 282px;
+}
   main {
     padding-top: env(safe-area-inset-top, 10px);
     padding-right: env(safe-area-inset-right, 10px);
@@ -3673,10 +3610,7 @@ button:focus {
   .card-article--tall {
     height: 27.4vw
   }
-.pad-mobile-lr-zero {
-    padding-left: 0;
-    padding-right: 0
-  }
+
   .card--panel-image {
     height: 15vw
   }
@@ -3686,10 +3620,8 @@ button:focus {
   body {
     font-size: 12px
   }
-.pad-mobile-lr-zero {
-    padding-left: 0;
-    padding-right: 0
-  }
+
+}
   main {
     padding-top: env(safe-area-inset-top, 10px);
     padding-right: env(safe-area-inset-right, 10px);
@@ -4131,6 +4063,8 @@ button:focus {
     margin-bottom: 10vw
   }
 }
+
+
 
 /* @media (prefers-color-scheme: dark) {
   body {

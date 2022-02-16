@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width:481px) and (max-width:767px){#dwn-arrw,.banner-caption-wrp h2 br{display:block}.about-btm-wrp,.banner-top-wrp,.bene-box,.item,.logo-wrp,.stage-wrp{height:auto}.bene-box,.testi-inner-wrp{text-align:center;width:100%}.form-wrp-franchise{width:100%;height:auto;margin:0 0 160px;position:relative;top:0;float:none; right: 1px;}.logo-wrp{width:220px;padding-left: 0px;}.banner-caption-wrp{padding-top:0}.banner-caption-wrp h2{font-size:24px;margin-bottom:30px; text-align: center}#request-call-form .form-group,h2.common-title{margin-bottom:12px}.banner-top-wrp{background-color:#FFFFFF;padding:0;background-size:contain;background-position:center bottom}#request-call-form{margin-top:10px}.abt-kotak-grid,.benefits-grid-wrp{margin-top:20px}.cmmn-pad-top{padding-top:15px}.cmmn-pad-bottom{padding-bottom:15px}h2.common-title{font-size:26px}.support-caption-wrp{padding-top:20px}.support-caption-wrp h2{font-size:26px;margin-bottom:25px;text-align:center}.stage-wrp{background-color: #003366;background-size:100%;padding-bottom:10px}.item{width:100%; padding: 20px;position: relative; float: left;}.abt-kotak-inner h2{font-size:28px}.abt-kotak-inner p,p.tick-stage{font-size:14px}.abt-kotak-inner{margin-bottom:30px}p.tick-stage{padding:5px 0 5px 49px;background-size:39px}.bene-box{margin:0 auto 20px;display:block}.bene-box img{margin:0 auto;display:block}#next{margin-right:0}.testi-inner-wrp{padding:0 40px 25px}#get-started-cta{width: 100%;height: 30px;display: block;background-image: url(../images/get-started-cta-mobile.jpg);background-repeat: no-repeat;background-position: center;position: fixed;right: 0%;top: inherit;bottom: 0px;margin-top: 0px;background-color: #ed1c24;display: none;}.footer {width: 100%;background-color: #363636;height: auto;padding: 10px 0 35px;}.mob-block{ display: block;}}
+
+@media (min-width:320px) and (max-width:480px){.row1{display: block;}.rowhide{display: none}h2 br{display:block}.about-btm-wrp,.banner-top-wrp,.bene-box,.item,.logo-wrp,.stage-wrp,.testi-desc{height:auto}.bene-box,.testi-inner-wrp{text-align:center;width:100%}.form-wrp-franchise{width:100%;height:auto;margin:0 0 20px;position:relative;top:0;float:none; right: 1px;}.logo-wrp{padding-left: 0px;}.banner-caption-wrp{padding-top:0}.banner-caption-wrp h2 span {
+    color: #44464A;
+	font-family: 'Roboto Regular';
+    font-size: 20px;
+}
+	.mob-center{
+	text-align: center;
+		font-size: 16px;
+}
+	.banner-caption-wrp span{
+		font-size: 14px;
+	}
+	.mob-border{
+		border-right: none;
+		}
+	.border-b{
+		border-bottom: 1px solid #8d8d8d;
+		padding-bottom: 5px;
+		width: 80%;
+	}
+	.list-benefits{
+		text-align: left;
+		font-size: 18px;
+		font-family: 'Roboto Medium';
+		margin-bottom: 10px;
+		margin-top: 10px;
+		line-height: 140%;
+	}
+	.list-benefits2{
+	display:list-item;
+	list-style-type: disc;
+	list-style-position: inside;
+	padding: 0 20px;
+	border-right:none;
+}
+.list-benefits1{
+	
+	display:list-item;
+	list-style-type: disc;
+	list-style-position: inside;
+	padding: 0 20px;
+	border-right:none;
+}
+.list-benefits3{
+	
+	display:list-item;
+	list-style-type: disc;
+	list-style-position: inside;
+	padding: 0 20px;
+}
+	.mob-display{
+		display: none;
+	}
+	.pad-t-xs{
+		padding-top: 1vw;
+	}
+	.mar-b-xs{
+		margin-bottom: 1vw;
+	}
+	.pad-t-sm{
+		padding-top: 2vw;
+			}
+	.pad-b-sm{
+		padding-bottom: 1vw;
+	}
+	.mob-mar{
+		margin-top: 1vw;
+		margin-bottom: 1vw;
+		margin-left: 0vw;
+		margin-right: 0vw;
+	}
+	.mob-pad{
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+		padding-left: 0vw;
+		padding-right: 0vw;
+	}
+	.form-fixed {
+    position:relative;
+    top: -10px;
+    right: 0px;
+    z-index: 9999;
+    width: 100%;
+		max-width: 480px;
+}
+	.img1 {
+    margin-top: 05px;
+    width: 80%;
+    margin-left: 10%;
+}
+	.icon img{
+		padding-right:0%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+		width: 50%;
+}
+	.logo-mob{
+		width: 60%;
+		display: block;
+    margin: 0 auto;
+	}
+	.mob-text-center{
+		text-align: center;
+	}
+	.mob-txt{
+		font-size: 28px;
+	}
+	.steps img{
+	width: 100%;
+    display: block;
+    margin: 0 auto;
+		padding-bottom: 5vw;
+	}
+	.banner-caption-wrp h2{font-size:19px;margin:0px; line-height: 120%;text-align: center;padding: 5px}
+	.banner-caption-wrp1 h2{font-size:26px;margin:0px; line-height: 120%;text-align: center;padding: 15px}
+	.banner-caption-wrp1 h2 span{
+	color:#44464A;
+	font-family: 'Roboto Light';
+	font-size: 16px;
+	line-height: 120%;
+}
+	#myBtn{
+		    background-color: #0B4D88;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    right: 0px;
+	}
+	.owl-nav{
+		    position: absolute;
+    width: 87vw;
+    top: 40%;
+    z-index: 4;
+	}
+	.card--panel-image{
+		height: 35vw;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+	}
+	.panel-ht{
+		height: 270px;
+	}
+	.card--panel-image img{
+		height: auto;
+		margin: 0 auto;
+    display: block;
+	}
+	.pad-lr-mob{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.banner-caption-wrp h3{font-size:28px;margin-bottom:0px; margin-top: 0px; line-height: 140%;text-align: center;padding: 2px;}
+	#request-call-form .form-group,h2.common-title{margin-bottom:15px; margin-top: 15px;}.banner-top-wrp{background-color:#FFFFFF;padding:0;background-size:contain;background-position:center bottom}#request-call-form{margin-top:10px}.abt-kotak-grid,.benefits-grid-wrp{margin-top:20px}.cmmn-pad-top{padding-top:25px}.cmmn-pad-bottom{padding-bottom:15px}h2.common-title{font-size:26px}.support-caption-wrp{padding-top:20px}.support-caption-wrp h2{font-size:26px;margin-bottom:25px;text-align:center}.stage-wrp{background-color: #003366;background-size:100%;padding-bottom:10px}.item{width:100%}.abt-kotak-inner h2{font-size:28px}.abt-kotak-inner p,p.tick-stage{font-size:14px}.abt-kotak-inner{margin-bottom:30px}p.tick-stage{padding:5px 0 5px 49px;background-size:39px}.bene-box{margin:0 auto 20px;display:block}.bene-box img{margin:0 auto;display:block}#next{margin-right:0}.testi-inner-wrp{padding:0 40px 25px}#get-started-cta{width: 100%;height: 30px;display: block;background-image: url(../images/get-started-cta-mobile.jpg);background-repeat: no-repeat;background-position: center;position: fixed;right: 0%;top: inherit;bottom: 0px;margin-top: 0px;background-color: #ed1c24;display: none;}.footer {width: 100%;background-color: #363636;height: auto;padding: 10px 0 35px;}.mob-block{ display: block;}.img-responsive1{width:100%;}}
