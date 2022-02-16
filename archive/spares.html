@@ -1,6 +1,13 @@
 <html>
   <body>
     <script>
+      $(document).ready(function () {
+        $("#mobile_number").keypress(function (event) {
+          if (event.which != 8 && isNaN(String.fromCharCode(event.which))) {
+            event.preventDefault(); //stop character from entering input
+          }
+        });
+      });
       function changever(that) {
         var x = that.src;
         that.src = x + "?ver=" + Math.random();

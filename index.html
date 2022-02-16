@@ -2099,6 +2099,10 @@
                   smartech('dispatch', 'Test Event', {
                     'InterestedInStock': document.getElementById("selectcity").value,
                   });
+                  smartech('contact', '4170', {
+                  'pk^client_code': marTechData["CLIENT_CODE"],
+                  'FAV_STOCK': document.getElementById("selectcity").value,
+                  });
                   document.getElementById("select-a-stock").classList.add("hide");
                   document.getElementById("thank-the-user").classList.remove("hide");
                 } else {
@@ -2106,16 +2110,6 @@
                 }
 
               })
-
-              
-
-              $(document).ready(function() {
-                $("#mobile_number").keypress(function(event) {
-                  if (event.which != 8 && isNaN(String.fromCharCode(event.which))) {
-                    event.preventDefault(); //stop character from entering input
-                  }
-                });
-              });
 
               function select_val(idval, strval) {
                 $("#selectcity").val(idval);
