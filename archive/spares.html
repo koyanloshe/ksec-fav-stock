@@ -1,0 +1,128 @@
+<html>
+  <body>
+    <script>
+      function changever(that) {
+        var x = that.src;
+        that.src = x + "?ver=" + Math.random();
+      }
+      var replaceaction = "";
+      var formid = ["securities"];
+      var comboid = ["city-box"];
+      var combocss = ["city-wrp"];
+      var bannerid = ["1"];
+      var Cmp_BWF_pk = ["537276471610008252"];
+      var LeadSourceURL = location.protocol + "://" + location.hostname + "" + location.pathname;
+    </script>
+    <script>
+      function validateForm() {
+        var x = document.forms["myForm"]["name"].value;
+        var y = document.forms["myForm"]["city"].value;
+        //alert(y);
+        if (x == "") {
+          alert("Name must be filled out");
+          return false;
+        }
+        if (x.length < 3) {
+          alert("Name must be Atleast 3 character");
+          return false;
+        }
+        if (y == "") {
+          alert("Please select City");
+          return false;
+        }
+      }
+    </script>
+    <script type="text/javascript">
+      function myfunction() {
+        dataLayer.push({
+          category: "leads",
+          action: "registrations",
+          label: "https://www.kotaksecurities.com/landing-page/favourite-stock/index.html",
+          event: "event_conversionsuccess",
+        });
+      }
+    </script>
+    <script type="text/javascript">
+      var relaceaction = "";
+      var replaceaction = "";
+      var isThisClicked = 0;
+
+      $(document).ready(function (e) {
+        $('select[name="CON_PACITY"]').on("change", function () {});
+        setPros();
+      });
+
+      function setPros() {
+        try {
+          $('input[name="ProspectId"]').each(function () {
+            MXCProspectId = MXCProspectId || "0";
+            $(this).val(MXCProspectId);
+          });
+        } catch (e) {
+          setTimeout(function () {
+            setPros();
+          }, 3000);
+        }
+      }
+
+      function press_char_key(the_key) {
+        if (!the_key) {
+          the_key = event.keyCode;
+        }
+
+        var key = String.fromCharCode(the_key);
+
+        var n = /^[a-z, A-Z]*$/;
+
+        return n.test(key);
+      }
+
+      function press_num_key(the_key) {
+        if (!the_key) {
+          the_key = event.keyCode;
+        }
+        var key = String.fromCharCode(the_key);
+        var n = /^[,0-9 ]*$/;
+
+        return n.test(key);
+      }
+
+      function myTrim(x) {
+        return x.replace(/^\s+|\s+$/gm, "");
+      }
+
+      function formvalidations(Form) {
+        var phn = /^\d{10}$/;
+        var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+        var cityF = Form.elements["CON_PACITY"].value;
+        var panf = Form.elements["pan"] != undefined ? Form.elements["pan"].value : undefined;
+
+        var LeadSourceURL = location.protocol + "//" + location.hostname + "" + location.pathname;
+
+        var selectcity = $("#selectcity").val();
+
+        smartech("dispatch", selectcity, {});
+
+        $("#RedirectURL").val(RedirectURL);
+        $('input[name="RedirectURL"]').each(function () {
+          $(this).val(RedirectURL);
+        });
+        var ProspectIdf = Form.elements["ProspectId"].value;
+        Form.elements["LeadSourceURL"].value = LeadSourceURL;
+
+        if (ProspectIdf == "") {
+          ProspectIdf = typeof MXCProspectId != undefined || MXCProspectId == "" || MXCProspectId == undefined ? "0" : MXCProspectId;
+        }
+        if (cityF == "" || cityF == "0") {
+          alert("Select Stock");
+          // Form.elements["CON_PACITY"].focus();
+          return false;
+        }
+
+        myfunction();
+
+        Form.submit();
+      }
+    </script>
+  </body>
+</html>
